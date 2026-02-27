@@ -199,4 +199,4 @@ Yeni başlıklar eklenecek:
 
 # 🛡 Lisans
 
-Lisans bilgisi public hale getirildiğinde eklenecektir.
+MIT
