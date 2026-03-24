@@ -61,7 +61,41 @@ Eğer yeni başlıyorsan şu sırayı takip et:
 
 ## 5️⃣ Distributed Systems (İleri Seviye)
 
-- [Kafka Topic Configuration](DISTRIBUTED_SYSTEMS/KAFKA/TOPIC_CONFIGURATION.md)
+## Nereden Başlamalı?
+
+Eğer Kafka’ya yeni başlıyorsan:
+1. Topic Configuration
+2. Topic Naming Convention
+3. Event Design Guide
+
+Eğer production problemi çözüyorsan:
+1. Retry, DLQ & Idempotency
+2. Outbox & Consumer Idempotency
+3. Backpressure & Memory Guide
+
+
+Kafka tabanlı event-driven sistemlerde production-grade kurallar:
+
+### Kafka Playbook
+
+- [Kafka Overview](DISTRIBUTED_SYSTEMS/KAFKA/README.md)
+
+#### Core Topics
+
+- [Topic Configuration](DISTRIBUTED_SYSTEMS/KAFKA/TOPIC_CONFIGURATION.md)
+- [Topic Naming Convention](DISTRIBUTED_SYSTEMS/KAFKA/TOPIC_NAMING_CONVENTION.md)
+- [Event Design Guide](DISTRIBUTED_SYSTEMS/KAFKA/EVENT_DESIGN_GUIDE.md)
+
+#### Runtime Behavior
+
+- [Producer & Consumer Strategy](DISTRIBUTED_SYSTEMS/KAFKA/PRODUCER_CONSUMER_STRATEGY.md)
+- [Retry, DLQ & Idempotency](DISTRIBUTED_SYSTEMS/KAFKA/RETRY_DLQ_IDEMPOTENCY.md)
+- [Outbox & Consumer Idempotency](DISTRIBUTED_SYSTEMS/KAFKA/OUTBOX_AND_CONSUMER_IDEMPOTENCY.md)
+
+#### Performance & Stability
+
+- [Backpressure & Memory Guide](DISTRIBUTED_SYSTEMS/KAFKA/BACKPRESSURE_AND_MEMORY_GUIDE.md)
+
 ---
 
 # 🧠 Temel Felsefe
