@@ -59,6 +59,9 @@ Eğer yeni başlıyorsan şu sırayı takip et:
 6. [Burst Traffic Senaryosu](MEMORY_MANAGEMENT/6-MEMORY_MANAGEMENT_IN_THE_BURST_TRAFFIC_SCENARIO.md)
 7. [Production Memory Audit Rehberi](MEMORY_MANAGEMENT/7-PRODUCTION_MEMORY_AUDIT_GUIDE.md)
 
+## 5️⃣ Distributed Systems (İleri Seviye)
+
+- [Kafka Topic Configuration](DISTRIBUTED_SYSTEMS/KAFKA/TOPIC_CONFIGURATION.md)
 ---
 
 # 🧠 Temel Felsefe
