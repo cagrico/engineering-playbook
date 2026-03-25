@@ -61,6 +61,7 @@ Yanlış API tasarımı:
 
 - [RESTful API Design Guide](API/REST/RESTFUL_API_DESIGN.md)
 - [API Naming Convention Guide](API/REST/API_NAMING_CONVENTION_GUIDE.md)
+- [API Response & Error Standard](API/REST/API_RESPONSE_AND_ERROR_STANDARD.md)
 
 ## 5️⃣ Bellek ve Performans (İleri Seviye)
 
