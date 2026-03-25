@@ -73,6 +73,7 @@ Yanlış API tasarımı:
 - [API Observability & Audit Logging](API/REST/API_OBSERVABILITY_AND_AUDIT_LOGGING.md)
 - [API Deprecation & Lifecycle Management](API/REST/API_DEPRECATION_AND_LIFECYCLE.md)
 - [Bulk / Batch API Design](API/REST/API_BULK_AND_BATCH_DESIGN.md)
+- [Async API Patterns (Event-Driven)](API/REST/API_ASYNC_PATTERNS.md)
 
 ## 5️⃣ Bellek ve Performans (İleri Seviye)
 
