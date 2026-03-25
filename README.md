@@ -1,3 +1,7 @@
+![status](https://img.shields.io/badge/status-active-success)
+![license](https://img.shields.io/badge/license-MIT-blue)
+![level](https://img.shields.io/badge/level-Production%20Engineering-black)
+
 # Engineering Playbook
 
 Yüksek trafikli backend sistemler geliştiren ekipler için hazırlanmış, üretim odaklı bir mühendislik rehberi.
@@ -7,7 +11,7 @@ Bu repository;
 - Mimari sınırları netleştirir
 - İsimlendirme disiplinini standardize eder
 - Bellek davranışını tasarım aşamasında planlar
-- Yük altında sistemin nasıl ayakta kalacağını anlatır
+- Yük altında sistemin nasıl ayakta kalacağını açıklar
 - Production ortamında kök neden analizini sistematik hale getirir
 
 Amaç basit:
@@ -32,20 +36,28 @@ Bu repo:
 
 # 🧭 Nasıl Okunmalı?
 
-Eğer yeni başlıyorsan şu sırayı takip et:
+Eğer yeni başlıyorsan aşağıdaki sırayı takip et:
+
+---
 
 ## 1️⃣ Mimari Temel
 
 - [Hexagonal / Clean Architecture Kuralları](ARCHITECTURE_GUIDELINES.md)
 - [Validation Sorumlulukları ve Invariant Kuralları](VALIDATION_RESPONSIBILITY_AND_INVARIANT_RULES.md)
 
+---
+
 ## 2️⃣ İsimlendirme Disiplini
 
 - [Backend Naming Standards](NAMING_STANDARDS_BACKEND.md)
 
+---
+
 ## 3️⃣ Git Disiplini
 
 - [Commit Mesaj Standardı](GIT_COMMIT_MESSAGE.md)
+
+---
 
 ## 4️⃣ API Design (Production)
 
@@ -53,30 +65,40 @@ Yüksek trafikli sistemlerde API tasarımı, sadece endpoint yazmak değildir.
 
 Yanlış API tasarımı:
 - Scale problemleri üretir
-- Cache'i bozar
+- Cache’i bozar
 - Client-server coupling yaratır
 - Maintainability düşürür
 
-Önerilen okuma:
+### Core API Design
 
 - [RESTful API Design Guide](API/REST/RESTFUL_API_DESIGN.md)
 - [API Naming Convention Guide](API/REST/API_NAMING_CONVENTION_GUIDE.md)
 - [API Response & Error Standard](API/REST/API_RESPONSE_AND_ERROR_STANDARD.md)
 - [API Versioning & Compatibility Guide](API/REST/API_VERSIONING_AND_COMPATIBILITY.md)
+
+### API Runtime Behavior
+
 - [API Rate Limiting & Protection Guide](API/REST/API_RATE_LIMITING_AND_PROTECTION.md)
 - [API Pagination, Filtering & Query Design Guide](API/REST/API_PAGINATION_FILTERING_AND_QUERY_DESIGN.md)
 - [API Authentication & Authorization Guide](API/REST/API_AUTHENTICATION_AND_AUTHORIZATION.md)
 - [API Idempotency & Safe Retry Guide](API/REST/API_IDEMPOTENCY_AND_SAFE_RETRY.md)
 - [API Validation & Input Boundary Rules](API/REST/API_VALIDATION_AND_INPUT_BOUNDARY_RULES.md)
 - [API Timeout, Cancellation & Resilience Guide](API/REST/API_TIMEOUT_CANCELLATION_AND_RESILIENCE.md)
+
+### API Operations & Lifecycle
+
 - [API Documentation Standard](API/REST/API_DOCUMENTATION_STANDARD.md)
 - [API Observability & Audit Logging](API/REST/API_OBSERVABILITY_AND_AUDIT_LOGGING.md)
 - [API Deprecation & Lifecycle Management](API/REST/API_DEPRECATION_AND_LIFECYCLE.md)
+
+### Advanced API Patterns
+
 - [Bulk / Batch API Design](API/REST/API_BULK_AND_BATCH_DESIGN.md)
 - [Async API Patterns (Event-Driven)](API/REST/API_ASYNC_PATTERNS.md)
 - [Webhook Design Guide](API/REST/API_WEBHOOK_DESIGN.md)
 - [File Upload / Download API Design](API/REST/API_FILE_UPLOAD_DOWNLOAD.md)
 
+---
 
 ## 5️⃣ Bellek ve Performans (İleri Seviye)
 
@@ -90,22 +112,25 @@ Yanlış API tasarımı:
 6. [Burst Traffic Senaryosu](MEMORY_MANAGEMENT/6-MEMORY_MANAGEMENT_IN_THE_BURST_TRAFFIC_SCENARIO.md)
 7. [Production Memory Audit Rehberi](MEMORY_MANAGEMENT/7-PRODUCTION_MEMORY_AUDIT_GUIDE.md)
 
+---
+
 ## 6️⃣ Distributed Systems (İleri Seviye)
 
-## Nereden Başlamalı?
+### Nereden Başlamalı?
 
 Eğer Kafka’ya yeni başlıyorsan:
+
 1. Topic Configuration
 2. Topic Naming Convention
 3. Event Design Guide
 
 Eğer production problemi çözüyorsan:
+
 1. Retry, DLQ & Idempotency
 2. Outbox & Consumer Idempotency
 3. Backpressure & Memory Guide
 
-
-Kafka tabanlı event-driven sistemlerde production-grade kurallar:
+---
 
 ### Kafka Playbook
 
@@ -160,9 +185,7 @@ Her şeyin üst sınırı vardır.
 
 ## 3️⃣ Memory-First Yaklaşım
 
-Çoğu sistem CPU odaklı tasarlanır.
-
-Gerçekte:
+Gerçek dünya:
 
 - CPU ölçeklenebilir
 - RAM patlarsa sistem düşer
@@ -178,7 +201,6 @@ Bu nedenle:
 # 🏗 Kapsanan Konular
 
 ### Mimari
-
 - Hexagonal / Clean Architecture
 - Katman sorumlulukları
 - Domain izolasyonu
@@ -189,20 +211,22 @@ Bu nedenle:
 
 ---
 
-### İsimlendirme
-
-- Değişken ve struct isimleri
-- Interface stratejisi
-- Repository isimlendirme
-- API route standardı
-- Veritabanı tablo/kolon/index isimleri
-- Kafka topic ve event isimleri
-- Test isimlendirme disiplini
+### API Engineering
+- REST tasarımı
+- API naming
+- response & error standardı
+- versioning
+- rate limiting
+- authentication & authorization
+- idempotency
+- validation
+- resilience
+- observability
+- lifecycle management
 
 ---
 
 ### Bellek Yönetimi
-
 - Stack vs Heap
 - Escape analysis
 - Garbage Collector davranışı
@@ -210,8 +234,6 @@ Bu nedenle:
 - Zero allocation yaklaşımı
 - Worker pool tasarımı
 - Backpressure mühendisliği
-- Batch stratejileri
-- Burst traffic senaryosu
 - Memory budgeting
 - Production memory audit
 
@@ -246,7 +268,7 @@ Bu repo:
 Bu playbook’un hedefi:
 
 - Rastgele büyüyen sistemler değil
-- Ölçülebilir, tahmin edilebilir, kontrollü sistemler inşa etmektir.
+- Ölçülebilir, tahmin edilebilir, kontrollü sistemler inşa etmektir
 
 ---
 
