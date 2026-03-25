@@ -75,6 +75,8 @@ Yanlış API tasarımı:
 - [Bulk / Batch API Design](API/REST/API_BULK_AND_BATCH_DESIGN.md)
 - [Async API Patterns (Event-Driven)](API/REST/API_ASYNC_PATTERNS.md)
 - [Webhook Design Guide](API/REST/API_WEBHOOK_DESIGN.md)
+- [File Upload / Download API Design](API/REST/API_FILE_UPLOAD_DOWNLOAD.md)
+
 
 ## 5️⃣ Bellek ve Performans (İleri Seviye)
 
