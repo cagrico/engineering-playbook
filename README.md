@@ -69,6 +69,7 @@ Yanlış API tasarımı:
 - [API Idempotency & Safe Retry Guide](API/REST/API_IDEMPOTENCY_AND_SAFE_RETRY.md)
 - [API Validation & Input Boundary Rules](API/REST/API_VALIDATION_AND_INPUT_BOUNDARY_RULES.md)
 - [API Timeout, Cancellation & Resilience Guide](API/REST/API_TIMEOUT_CANCELLATION_AND_RESILIENCE.md)
+- [API Documentation Standard](API/REST/API_DOCUMENTATION_STANDARD.md)
 
 ## 5️⃣ Bellek ve Performans (İleri Seviye)
 
