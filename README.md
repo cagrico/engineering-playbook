@@ -65,6 +65,7 @@ Yanlış API tasarımı:
 - [API Versioning & Compatibility Guide](API/REST/API_VERSIONING_AND_COMPATIBILITY.md)
 - [API Rate Limiting & Protection Guide](API/REST/API_RATE_LIMITING_AND_PROTECTION.md)
 - [API Pagination, Filtering & Query Design Guide](API/REST/API_PAGINATION_FILTERING_AND_QUERY_DESIGN.md)
+- [API Authentication & Authorization Guide](API/REST/API_AUTHENTICATION_AND_AUTHORIZATION.md)
 
 ## 5️⃣ Bellek ve Performans (İleri Seviye)
 
