@@ -47,7 +47,21 @@ Eğer yeni başlıyorsan şu sırayı takip et:
 
 - [Commit Mesaj Standardı](GIT_COMMIT_MESSAGE.md)
 
-## 4️⃣ Bellek ve Performans (İleri Seviye)
+## 4️⃣ API Design (Production)
+
+Yüksek trafikli sistemlerde API tasarımı, sadece endpoint yazmak değildir.
+
+Yanlış API tasarımı:
+- Scale problemleri üretir
+- Cache'i bozar
+- Client-server coupling yaratır
+- Maintainability düşürür
+
+Önerilen okuma:
+
+- [RESTful API Design Guide](API/REST/RESTFUL_API_DESIGN.md)
+
+## 5️⃣ Bellek ve Performans (İleri Seviye)
 
 Önerilen okuma sırası:
 
@@ -59,7 +73,7 @@ Eğer yeni başlıyorsan şu sırayı takip et:
 6. [Burst Traffic Senaryosu](MEMORY_MANAGEMENT/6-MEMORY_MANAGEMENT_IN_THE_BURST_TRAFFIC_SCENARIO.md)
 7. [Production Memory Audit Rehberi](MEMORY_MANAGEMENT/7-PRODUCTION_MEMORY_AUDIT_GUIDE.md)
 
-## 5️⃣ Distributed Systems (İleri Seviye)
+## 6️⃣ Distributed Systems (İleri Seviye)
 
 ## Nereden Başlamalı?
 
