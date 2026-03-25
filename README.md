@@ -67,6 +67,7 @@ Yanlış API tasarımı:
 - [API Pagination, Filtering & Query Design Guide](API/REST/API_PAGINATION_FILTERING_AND_QUERY_DESIGN.md)
 - [API Authentication & Authorization Guide](API/REST/API_AUTHENTICATION_AND_AUTHORIZATION.md)
 - [API Idempotency & Safe Retry Guide](API/REST/API_IDEMPOTENCY_AND_SAFE_RETRY.md)
+- [API Validation & Input Boundary Rules](API/REST/API_VALIDATION_AND_INPUT_BOUNDARY_RULES.md)
 
 ## 5️⃣ Bellek ve Performans (İleri Seviye)
 
