@@ -60,6 +60,7 @@ Yanlış API tasarımı:
 Önerilen okuma:
 
 - [RESTful API Design Guide](API/REST/RESTFUL_API_DESIGN.md)
+- [API Naming Convention Guide](API/REST/API_NAMING_CONVENTION_GUIDE.md)
 
 ## 5️⃣ Bellek ve Performans (İleri Seviye)
 
