@@ -55,7 +55,8 @@ Eğer yeni başlıyorsan aşağıdaki sırayı takip et:
 
 ## 3️⃣ Git Disiplini
 
-- [Commit Mesaj Standardı](GIT_COMMIT_MESSAGE.md)
+- [Commit Mesaj Standardı](./GIT/COMMIT_MESSAGE_STANDARD.md)
+- [Branching and Merge Strategy](./GIT/BRANCHING_AND_MERGE_STRATEGY.md)
 
 ---
 
