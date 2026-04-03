@@ -40,11 +40,29 @@ Eğer yeni başlıyorsan aşağıdaki sırayı takip et:
 
 ---
 
-## 1️⃣ Mimari Temel
+## 1️⃣  Mimari Temel ve Yaklaşım
 
-- [Hexagonal / Clean Architecture Kuralları](ARCHITECTURE_GUIDELINES.md)
+Bu repo’da yer alan tüm içerikler, ekip olarak benimsediğimiz ortak bir backend mimarî yaklaşımına dayanır.
+
+Bu yaklaşım:
+
+- **Hexagonal Architecture (Port-Adapter)**
+- **Clean Architecture prensipleri**
+- **Domain-Driven Design (DDD) tactical pattern’leri**
+
+üzerine kurulmuş hibrit bir yapıdır.
+
+Amaç:
+
+- İş mantığını dış bağımlılıklardan izole etmek
+- Sistemleri test edilebilir ve sürdürülebilir hale getirmek
+- Farklı teknolojilere geçişi kolaylaştırmak
+- Ekip içinde ortak bir mühendislik standardı oluşturmak
+
+Dokümanlar:
+- [Mimari Doküman](./architecture/architecture.md)
+- [Hexagonal / Clean Architecture Kuralları](ARCHITECTURE/ARCHITECTURE_GUIDELINES.md)
 - [Validation Sorumlulukları ve Invariant Kuralları](VALIDATION_RESPONSIBILITY_AND_INVARIANT_RULES.md)
-
 ---
 
 ## 2️⃣ İsimlendirme Disiplini
